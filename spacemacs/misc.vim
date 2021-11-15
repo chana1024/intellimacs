@@ -1,4 +1,4 @@
-""" Key bindings that do not have <leader> as first key
+""" Key bindings that do not have <Space> as first key
 
 " Go to next change
 let g:WhichKeyDesc_Misc_GotoNextChange = "g, goto-next-change"
@@ -12,8 +12,8 @@ vnoremap g;    :action JumpToLastChange<CR>
 
 " Go to declaration
 let g:WhichKeyDesc_Misc_JumpToDefinition = "gd jump-to-definition"
-nnoremap <leader>gd    :action GotoDeclaration<CR>
-vnoremap <leader>gd    <Esc>:action GotoDeclaration<CR>
+nnoremap <Space>gd    :action GotoDeclaration<CR>
+vnoremap <Space>gd    <Esc>:action GotoDeclaration<CR>
 
 " Collapse all folds
 let g:WhichKeyDesc_Misc_CloseFolds = "zm close-folds"

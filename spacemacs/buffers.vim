@@ -1,54 +1,54 @@
 " Switch among recently opened files
-let g:WhichKeyDesc_Buffers_ListBuffers = "<leader>bb    list-buffers"
-nnoremap <leader>bb    :action RecentFiles<CR>
-vnoremap <leader>bb    :action RecentFiles<CR>
+let g:WhichKeyDesc_Buffers_ListBuffers = "<Space>bb    list-buffers"
+nnoremap <Space>bb    :action RecentFiles<CR>
+vnoremap <Space>bb    :action RecentFiles<CR>
 
 " Close current tab
-let g:WhichKeyDesc_Buffers_KillBuffer = "<leader>bd    kill-buffer"
-nnoremap <leader>bd    :action CloseContent<CR>
-vnoremap <leader>bd    <Esc>:action CloseContent<CR>
+let g:WhichKeyDesc_Buffers_KillBuffer = "<Space>bd    kill-buffer"
+nnoremap <Space>bd    :action CloseContent<CR>
+vnoremap <Space>bd    <Esc>:action CloseContent<CR>
 
 " Show event log
-let g:WhichKeyDesc_Buffers_MessagesBuffer = "<leader>bm    messages-buffer"
-nnoremap <leader>bm    :action ActivateEventLogToolWindow<CR>
-vnoremap <leader>bm    :action ActivateEventLogToolWindow<CR>
+let g:WhichKeyDesc_Buffers_MessagesBuffer = "<Space>bm    messages-buffer"
+nnoremap <Space>bm    :action ActivateEventLogToolWindow<CR>
+vnoremap <Space>bm    :action ActivateEventLogToolWindow<CR>
 
 " Next Tab
-let g:WhichKeyDesc_Buffers_NextBuffer = "<leader>bn    next-buffer"
-nnoremap <leader>bn    :action NextTab<CR>
-vnoremap <leader>bn    <Esc>:action NextTab<CR>
+let g:WhichKeyDesc_Buffers_NextBuffer = "<Space>bn    next-buffer"
+nnoremap <Space>bn    :action NextTab<CR>
+vnoremap <Space>bn    <Esc>:action NextTab<CR>
 
 " Substitute the whole content of the buffer with the content of your clipboard
-let g:WhichKeyDesc_Buffers_PasteAndReplaceBuffer = "<leader>bP    paste-and-replace-buffer"
-nnoremap <leader>bP    ggVGp<CR>
-vnoremap <leader>bP    <Esc>ggVGp<CR>
+let g:WhichKeyDesc_Buffers_PasteAndReplaceBuffer = "<Space>bP    paste-and-replace-buffer"
+nnoremap <Space>bP    ggVGp<CR>
+vnoremap <Space>bP    <Esc>ggVGp<CR>
 
 " Previous Tab
-let g:WhichKeyDesc_Buffers_PreviousBuffer = "<leader>bp    previous-buffer"
-nnoremap <leader>bp    :action PreviousTab<CR>
-vnoremap <leader>bp    <Esc>:action PreviousTab<CR>
+let g:WhichKeyDesc_Buffers_PreviousBuffer = "<Space>bp    previous-buffer"
+nnoremap <Space>bp    :action PreviousTab<CR>
+vnoremap <Space>bp    <Esc>:action PreviousTab<CR>
 
 " Open a new scratch buffer
-let g:WhichKeyDesc_Buffers_ScratchBuffer = "<leader>bs    scratch-buffer"
-nnoremap <leader>bs    :action NewScratchBuffer<CR>
-vnoremap <leader>bs    <Esc>:action NewScratchBuffer<CR>
+let g:WhichKeyDesc_Buffers_ScratchBuffer = "<Space>bs    scratch-buffer"
+nnoremap <Space>bs    :action NewScratchBuffer<CR>
+vnoremap <Space>bs    <Esc>:action NewScratchBuffer<CR>
 
 " Reopen last closed tab
-let g:WhichKeyDesc_Buffers_ReopenLastKilledBuffer = "<leader>bu    reopen-last-killed-buffer"
-nnoremap <leader>bu    :action ReopenClosedTab<CR>
-vnoremap <leader>bu    <Esc>:action ReopenClosedTab<CR>
+let g:WhichKeyDesc_Buffers_ReopenLastKilledBuffer = "<Space>bu    reopen-last-killed-buffer"
+nnoremap <Space>bu    :action ReopenClosedTab<CR>
+vnoremap <Space>bu    <Esc>:action ReopenClosedTab<CR>
 
 " Close a window together with its tabs
-let g:WhichKeyDesc_Buffers_KillBufferAndCloseWindow = "<leader>bx    kill-buffer-and-close-window"
-nnoremap <leader>bx    :action CloseAllEditors<CR>
-vnoremap <leader>bx    <Esc>:action CloseAllEditors<CR>
+let g:WhichKeyDesc_Buffers_KillBufferAndCloseWindow = "<Space>bx    kill-buffer-and-close-window"
+nnoremap <Space>bx    :action CloseAllEditors<CR>
+vnoremap <Space>bx    <Esc>:action CloseAllEditors<CR>
 
 " Copy whole buffer
-let g:WhichKeyDesc_Buffers_CopyBuffer = "<leader>bY    copy-buffer"
-nnoremap <leader>bY    :%y<CR>
-vnoremap <leader>bY    <Esc>:%y<CR>
+let g:WhichKeyDesc_Buffers_CopyBuffer = "<Space>bY    copy-buffer"
+nnoremap <Space>bY    :%y<CR>
+vnoremap <Space>bY    <Esc>:%y<CR>
 
 " Close other tabs in current window
-let g:WhichKeyDesc_Buffers_KillOtherBuffers = "<leader>b<C-d>    kill-other-buffers"
-nnoremap <leader>b<C-d>    :action CloseAllEditorsButActive<CR>
-vnoremap <leader>b<C-d>    :action CloseAllEditorsButActive<CR>
+let g:WhichKeyDesc_Buffers_KillOtherBuffers = "<Space>b<C-d>    kill-other-buffers"
+nnoremap <Space>b<C-d>    :action CloseAllEditorsButActive<CR>
+vnoremap <Space>b<C-d>    :action CloseAllEditorsButActive<CR>

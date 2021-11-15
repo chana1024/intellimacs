@@ -1,42 +1,42 @@
 " Git clone
-let g:WhichKeyDesc_GitVcs_Clone = "<leader>gc clone"
-nnoremap <leader>gc    :action Git.Clone<CR>
-vnoremap <leader>gc    :action Git.Clone<CR>
+let g:WhichKeyDesc_GitVcs_Clone = "<Space>gc clone"
+nnoremap <Space>gc    :action Git.Clone<CR>
+vnoremap <Space>gc    :action Git.Clone<CR>
 
 """ File Submenu ---------------------------------
-let g:WhichKeyDesc_GitVcs_File = "<leader>gf +file"
+let g:WhichKeyDesc_GitVcs_File = "<Space>gf +file"
 
 " Show log of current file
-let g:WhichKeyDesc_GitVcs_File_Log = "<leader>gfl log"
-nnoremap <leader>gfl    :action Vcs.ShowTabbedFileHistory<CR>
-vnoremap <leader>gfl    :action Vcs.ShowTabbedFileHistory<CR>
+let g:WhichKeyDesc_GitVcs_File_Log = "<Space>gfl log"
+nnoremap <Space>gfl    :action Vcs.ShowTabbedFileHistory<CR>
+vnoremap <Space>gfl    :action Vcs.ShowTabbedFileHistory<CR>
 """ ---------------------------------------------
 
 " Git init
-let g:WhichKeyDesc_GitVcs_Init = "<leader>gi init"
-nnoremap <leader>gi    :action Git.Init<CR>
-vnoremap <leader>gi    :action Git.Init<CR>
+let g:WhichKeyDesc_GitVcs_Init = "<Space>gi init"
+nnoremap <Space>gi    :action Git.Init<CR>
+vnoremap <Space>gi    :action Git.Init<CR>
 
 " Show local changes (git status)
-let g:WhichKeyDesc_GitVcs_Status = "<leader>gs status"
-nnoremap <leader>gs    :action Vcs.Show.Local.Changes<CR>
-vnoremap <leader>gs    :action Vcs.Show.Local.Changes<CR>
+let g:WhichKeyDesc_GitVcs_Status = "<Space>gs status"
+nnoremap <Space>gs    :action Vcs.Show.Local.Changes<CR>
+vnoremap <Space>gs    :action Vcs.Show.Local.Changes<CR>
 
 """ VCS Submenu ---------------------------------
-let g:WhichKeyDesc_GitVcs_VersionControl = "<leader>gv +version-control"
+let g:WhichKeyDesc_GitVcs_VersionControl = "<Space>gv +version-control"
 
 " Update project (git pull)
-let g:WhichKeyDesc_GitVcs_Vcs_Pull = "<leader>gv+ pull"
-nnoremap <leader>gv+    :action Vcs.UpdateProject<CR>
-vnoremap <leader>gv+    :action Vcs.UpdateProject<CR>
+let g:WhichKeyDesc_GitVcs_Vcs_Pull = "<Space>gv+ pull"
+nnoremap <Space>gv+    :action Vcs.UpdateProject<CR>
+vnoremap <Space>gv+    :action Vcs.UpdateProject<CR>
 
 " Annotate. Show when each line was last edited and by whom.
-let g:WhichKeyDesc_GitVcs_Vcs_Annotate = "<leader>gvg annotate"
-nnoremap <leader>gvg    :action Annotate<CR>
-vnoremap <leader>gvg    :action Annotate<CR>
+let g:WhichKeyDesc_GitVcs_Vcs_Annotate = "<Space>gvg annotate"
+nnoremap <Space>gvg    :action Annotate<CR>
+vnoremap <Space>gvg    :action Annotate<CR>
 
 " Show log (git log)
-let g:WhichKeyDesc_GitVcs_Vcs_Log = "<leader>gvl log"
-nnoremap <leader>gvl    :action Vcs.Show.Log<CR>
-vnoremap <leader>gvl    :action Vcs.Show.Log<CR>
+let g:WhichKeyDesc_GitVcs_Vcs_Log = "<Space>gvl log"
+nnoremap <Space>gvl    :action Vcs.Show.Log<CR>
+vnoremap <Space>gvl    :action Vcs.Show.Log<CR>
 """ ---------------------------------------------

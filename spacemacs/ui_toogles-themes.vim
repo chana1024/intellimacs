@@ -1,4 +1,4 @@
 " Toggle distraction free mode
-let g:WhichKeyDesc_UiTogglesThemes_DistractionFreeMode = "<leader>Tt distraction-free-mode"
-nnoremap <leader>Tt    :action ToggleDistractionFreeMode<CR>
-vnoremap <leader>Tt    :action ToggleDistractionFreeMode<CR>
+let g:WhichKeyDesc_UiTogglesThemes_DistractionFreeMode = "<Space>Tt distraction-free-mode"
+nnoremap <Space>Tt    :action ToggleDistractionFreeMode<CR>
+vnoremap <Space>Tt    :action ToggleDistractionFreeMode<CR>

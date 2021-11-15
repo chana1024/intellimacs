@@ -5,69 +5,69 @@ source ~/.intellimacs/spacemacs/settings.vim
 
 " Key bindings
 
-let g:WhichKeyDesc_Applications = "<leader>a    +applications"
+let g:WhichKeyDesc_Applications = "<Space>a    +applications"
 source ~/.intellimacs/spacemacs/applications.vim
 
-let g:WhichKeyDesc_Buffers = "<leader>b    +buffers"
+let g:WhichKeyDesc_Buffers = "<Space>b    +buffers"
 source ~/.intellimacs/spacemacs/buffers.vim
 
-let g:WhichKeyDesc_Colors = "<leader>C    +colors"
+let g:WhichKeyDesc_Colors = "<Space>C    +colors"
 source ~/.intellimacs/spacemacs/colors.vim
 
-let g:WhichKeyDesc_CompileComments = "<leader>c    +compile/comments"
+let g:WhichKeyDesc_CompileComments = "<Space>c    +compile/comments"
 source ~/.intellimacs/spacemacs/compile-comments.vim
 
-let g:WhichKeyDesc_Errors = "<leader>e    +errors"
+let g:WhichKeyDesc_Errors = "<Space>e    +errors"
 source ~/.intellimacs/spacemacs/errors.vim
 
-let g:WhichKeyDesc_Files = "<leader>f    +files"
+let g:WhichKeyDesc_Files = "<Space>f    +files"
 source ~/.intellimacs/spacemacs/files.vim
 
-let g:WhichKeyDesc_Frame = "<leader>F    +frame"
+let g:WhichKeyDesc_Frame = "<Space>F    +frame"
 source ~/.intellimacs/spacemacs/frame.vim
 
-let g:WhichKeyDesc_GitVcs = "<leader>g    +git/version-control"
+let g:WhichKeyDesc_GitVcs = "<Space>g    +git/version-control"
 source ~/.intellimacs/spacemacs/git-vcs.vim
 
-let g:WhichKeyDesc_Help = "<leader>h    +help"
+let g:WhichKeyDesc_Help = "<Space>h    +help"
 source ~/.intellimacs/spacemacs/help.vim
 
-let g:WhichKeyDesc_Insertion = "<leader>i    +insertion"
+let g:WhichKeyDesc_Insertion = "<Space>i    +insertion"
 source ~/.intellimacs/spacemacs/insertion.vim
 
-let g:WhichKeyDesc_JumpJoinSplit = "<leader>j    +jump/join/split"
+let g:WhichKeyDesc_JumpJoinSplit = "<Space>j    +jump/join/split"
 source ~/.intellimacs/spacemacs/jump-join-split.vim
 
 source ~/.intellimacs/spacemacs/leader.vim
 
 source ~/.intellimacs/spacemacs/misc.vim
 
-let g:WhichKeyDesc_NarrowNumbers = "<leader>n    +narrow/numbers"
+let g:WhichKeyDesc_NarrowNumbers = "<Space>n    +narrow/numbers"
 source ~/.intellimacs/spacemacs/narrow-numbers.vim
 
-let g:WhichKeyDesc_Projects = "<leader>p    +projects"
+let g:WhichKeyDesc_Projects = "<Space>p    +projects"
 source ~/.intellimacs/spacemacs/projects.vim
 
-let g:WhichKeyDesc_Quit = "<leader>q    +quit"
+let g:WhichKeyDesc_Quit = "<Space>q    +quit"
 source ~/.intellimacs/spacemacs/quit.vim
 
-let g:WhichKeyDesc_RegistersRingsResume = "<leader>r    +registers/rings/resume"
+let g:WhichKeyDesc_RegistersRingsResume = "<Space>r    +registers/rings/resume"
 source ~/.intellimacs/spacemacs/registers-rings-resume.vim
 
-let g:WhichKeyDesc_SearchSymbol = "<leader>s    +search/symbol"
+let g:WhichKeyDesc_SearchSymbol = "<Space>s    +search/symbol"
 source ~/.intellimacs/spacemacs/search-symbol.vim
 
-let g:WhichKeyDesc_Text = "<leader>x    +text"
+let g:WhichKeyDesc_Text = "<Space>x    +text"
 source ~/.intellimacs/spacemacs/text.vim
 
-let g:WhichKeyDesc_Toggles = "<leader>t    +toggles"
+let g:WhichKeyDesc_Toggles = "<Space>t    +toggles"
 source ~/.intellimacs/spacemacs/toggles.vim
 
-let g:WhichKeyDesc_UiTogglesThemes = "<leader>T    +UI toggles/themes"
+let g:WhichKeyDesc_UiTogglesThemes = "<Space>T    +UI toggles/themes"
 source ~/.intellimacs/spacemacs/ui_toogles-themes.vim
 
-let g:WhichKeyDesc_Windows = "<leader>w    +windows"
+let g:WhichKeyDesc_Windows = "<Space>w    +windows"
 source ~/.intellimacs/spacemacs/windows.vim
 
-let g:WhichKeyDesc_Zoom = "<leader>z    +zoom"
+let g:WhichKeyDesc_Zoom = "<Space>z    +zoom"
 source ~/.intellimacs/spacemacs/zoom.vim

@@ -1,4 +1,4 @@
 " Comment by block comment
-let g:WhichKeyDesc_CompileComments_CommentByBlockComment = "<leader>cb     comment-by-block-comment"
-nnoremap <leader>cb    :action CommentByBlockComment<CR>
-vnoremap <leader>cb    :action CommentByBlockComment<CR>
+let g:WhichKeyDesc_CompileComments_CommentByBlockComment = "<Space>cb     comment-by-block-comment"
+nnoremap <Space>cb    :action CommentByBlockComment<CR>
+vnoremap <Space>cb    :action CommentByBlockComment<CR>

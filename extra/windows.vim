@@ -1,29 +1,29 @@
 " Focus window far left
-let g:WhichKeyDesc_Windows_FocusWindowFarLeft = "<leader>wH focus-window-far-left"
-nnoremap <leader>wH    10<C-w>h
-vnoremap <leader>wH    <Esc>10<C-w>h
+let g:WhichKeyDesc_Windows_FocusWindowFarLeft = "<Space>wH focus-window-far-left"
+nnoremap <Space>wH    10<C-w>h
+vnoremap <Space>wH    <Esc>10<C-w>h
 
 " Focus window very bottom
-let g:WhichKeyDesc_Windows_FocusWindowVeryBottom = "<leader>wJ focus-window-very-bottom"
-nnoremap <leader>wJ    10<C-w>j
-vnoremap <leader>wJ    <Esc>10<C-w>j
+let g:WhichKeyDesc_Windows_FocusWindowVeryBottom = "<Space>wJ focus-window-very-bottom"
+nnoremap <Space>wJ    10<C-w>j
+vnoremap <Space>wJ    <Esc>10<C-w>j
 
 " Focus window very top
-let g:WhichKeyDesc_Windows_FocusWindowVeryTop = "<leader>wK focus-window-very-top"
-nnoremap <leader>wK    10<C-w>k
-vnoremap <leader>wK    <Esc>10<C-w>k
+let g:WhichKeyDesc_Windows_FocusWindowVeryTop = "<Space>wK focus-window-very-top"
+nnoremap <Space>wK    10<C-w>k
+vnoremap <Space>wK    <Esc>10<C-w>k
 
 " Focus window far right
-let g:WhichKeyDesc_Windows_FocusWindowFarRight = "<leader>wL focus-window-far-right"
-nnoremap <leader>wL    10<C-w>l
-vnoremap <leader>wL    <Esc>10<C-w>l
+let g:WhichKeyDesc_Windows_FocusWindowFarRight = "<Space>wL focus-window-far-right"
+nnoremap <Space>wL    10<C-w>l
+vnoremap <Space>wL    <Esc>10<C-w>l
 
 " Close all other windows
-let g:WhichKeyDesc_Windows_CloseAllOtherWindows = "<leader>wm close-all-other-windows"
-nnoremap <leader>wm    :action HideAllWindows<CR>
-vnoremap <leader>wm    :action HideAllWindows<CR>
+let g:WhichKeyDesc_Windows_CloseAllOtherWindows = "<Space>wm close-all-other-windows"
+nnoremap <Space>wm    :action HideAllWindows<CR>
+vnoremap <Space>wm    :action HideAllWindows<CR>
 
 " Move tab to the opposite window
-let g:WhichKeyDesc_Windows_MoveTabToOppositeWindow = "<leader>wO move-tab-to-opposite-window"
-nnoremap <leader>wO    :action MoveEditorToOppositeTabGroup<CR>
-vnoremap <leader>wO    <Esc>:action MoveEditorToOppositeTabGroup<CR>
+let g:WhichKeyDesc_Windows_MoveTabToOppositeWindow = "<Space>wO move-tab-to-opposite-window"
+nnoremap <Space>wO    :action MoveEditorToOppositeTabGroup<CR>
+vnoremap <Space>wO    <Esc>:action MoveEditorToOppositeTabGroup<CR>

@@ -1,63 +1,63 @@
 " Code cleanup
-let g:WhichKeyDesc_Major_Refactoring_CodeCleanup = "<leader>mrC code-cleanup"
-nnoremap <leader>mrC      :action CodeCleanup<CR>
-vnoremap <leader>mrC      :action CodeCleanup<CR>
+let g:WhichKeyDesc_Major_Refactoring_CodeCleanup = "<Space>mrC code-cleanup"
+nnoremap <Space>mrC      :action CodeCleanup<CR>
+vnoremap <Space>mrC      :action CodeCleanup<CR>
 
 " Create constructor
-let g:WhichKeyDesc_Major_Refactoring_CreateConstructor = "<leader>mrc create-constructor"
-nnoremap <leader>mrc      :action GenerateConstructor<CR>
-vnoremap <leader>mrc      <Esc>:action GenerateConstructor<CR>
+let g:WhichKeyDesc_Major_Refactoring_CreateConstructor = "<Space>mrc create-constructor"
+nnoremap <Space>mrc      :action GenerateConstructor<CR>
+vnoremap <Space>mrc      <Esc>:action GenerateConstructor<CR>
 
 """ Extract Submenu ---------------------------------
-let g:WhichKeyDesc_Major_Refactoring_CodeCleanup_Extract = "<leader>mre +extract"
+let g:WhichKeyDesc_Major_Refactoring_CodeCleanup_Extract = "<Space>mre +extract"
 
 " Extract method
-let g:WhichKeyDesc_Major_Refactoring_CodeCleanup_Extract_Method = "<leader>mrem method"
-nnoremap <leader>mrem    :action ExtractMethod<CR>
-vnoremap <leader>mrem    <Esc>:action ExtractMethod<CR>
+let g:WhichKeyDesc_Major_Refactoring_CodeCleanup_Extract_Method = "<Space>mrem method"
+nnoremap <Space>mrem    :action ExtractMethod<CR>
+vnoremap <Space>mrem    <Esc>:action ExtractMethod<CR>
 
 " Extract superclass
-let g:WhichKeyDesc_Major_Refactoring_CodeCleanup_Extract_Superclass = "<leader>mres superclass"
-nnoremap <leader>mres    :action ExtractSuperclass<CR>
-vnoremap <leader>mres    <Esc>:action ExtractSuperclass<CR>
+let g:WhichKeyDesc_Major_Refactoring_CodeCleanup_Extract_Superclass = "<Space>mres superclass"
+nnoremap <Space>mres    :action ExtractSuperclass<CR>
+vnoremap <Space>mres    <Esc>:action ExtractSuperclass<CR>
 """ ---------------------------------------------
 
 " Generate getter and setter
-let g:WhichKeyDesc_Major_Refactoring_GenerateGetterSetter = "<leader>mrG generate-getter-setter"
-nnoremap <leader>mrG      :action GenerateGetterAndSetter<CR>
-vnoremap <leader>mrG      <Esc>:action GenerateGetterAndSetter<CR>
+let g:WhichKeyDesc_Major_Refactoring_GenerateGetterSetter = "<Space>mrG generate-getter-setter"
+nnoremap <Space>mrG      :action GenerateGetterAndSetter<CR>
+vnoremap <Space>mrG      <Esc>:action GenerateGetterAndSetter<CR>
 
 " Select what to generate
-let g:WhichKeyDesc_Major_Refactoring_Generate = "<leader>mrg generate"
-nnoremap <leader>mrg      :action Generate<CR>
-vnoremap <leader>mrg      <Esc>:action Generate<CR>
+let g:WhichKeyDesc_Major_Refactoring_Generate = "<Space>mrg generate"
+nnoremap <Space>mrg      :action Generate<CR>
+vnoremap <Space>mrg      <Esc>:action Generate<CR>
 
 " Implement Methods
-let g:WhichKeyDesc_Major_Refactoring_ImplementMethods = "<leader>mrI implement-methods"
-nnoremap <leader>mrI      :action ImplementMethods<CR>
-vnoremap <leader>mrI      <Esc>:action ImplementMethods<CR>
+let g:WhichKeyDesc_Major_Refactoring_ImplementMethods = "<Space>mrI implement-methods"
+nnoremap <Space>mrI      :action ImplementMethods<CR>
+vnoremap <Space>mrI      <Esc>:action ImplementMethods<CR>
 
 " Optimize imports
-let g:WhichKeyDesc_Major_Refactoring_OptimizeImports = "<leader>mri optimize-imports"
-nnoremap <leader>mri      :action OptimizeImports<CR>
-vnoremap <leader>mri      <Esc>:action OptimizeImports<CR>
+let g:WhichKeyDesc_Major_Refactoring_OptimizeImports = "<Space>mri optimize-imports"
+nnoremap <Space>mri      :action OptimizeImports<CR>
+vnoremap <Space>mri      <Esc>:action OptimizeImports<CR>
 
 " Create a new Element.
-let g:WhichKeyDesc_Major_Refactoring_NewElement = "<leader>mrN new-element"
-nnoremap <leader>mrN      :action NewElement<CR>
-vnoremap <leader>mrN      :action NewElement<CR>
+let g:WhichKeyDesc_Major_Refactoring_NewElement = "<Space>mrN new-element"
+nnoremap <Space>mrN      :action NewElement<CR>
+vnoremap <Space>mrN      :action NewElement<CR>
 
 " Create a new class. You can also create enum, interface and more.
-let g:WhichKeyDesc_Major_Refactoring_NewClass = "<leader>mrn new-class"
-nnoremap <leader>mrn      :action NewClass<CR>
-vnoremap <leader>mrn      :action NewClass<CR>
+let g:WhichKeyDesc_Major_Refactoring_NewClass = "<Space>mrn new-class"
+nnoremap <Space>mrn      :action NewClass<CR>
+vnoremap <Space>mrn      :action NewClass<CR>
 
 " Choose a refactoring action
-let g:WhichKeyDesc_Major_Refactoring_ChooseRefactoringAction = "<leader>mrR choose-refactoring-action"
-nnoremap <leader>mrR      :action Refactorings.QuickListPopupAction<CR>
-vnoremap <leader>mrR      <Esc>:action Refactorings.QuickListPopupAction<CR>
+let g:WhichKeyDesc_Major_Refactoring_ChooseRefactoringAction = "<Space>mrR choose-refactoring-action"
+nnoremap <Space>mrR      :action Refactorings.QuickListPopupAction<CR>
+vnoremap <Space>mrR      <Esc>:action Refactorings.QuickListPopupAction<CR>
 
 " Rename symbol
-let g:WhichKeyDesc_Major_Refactoring_RenameSymbol = "<leader>mrr rename-symbol"
-nnoremap <leader>mrr      :action RenameElement<CR>
-vnoremap <leader>mrr      :action RenameElement<CR>
+let g:WhichKeyDesc_Major_Refactoring_RenameSymbol = "<Space>mrr rename-symbol"
+nnoremap <Space>mrr      :action RenameElement<CR>
+vnoremap <Space>mrr      :action RenameElement<CR>
